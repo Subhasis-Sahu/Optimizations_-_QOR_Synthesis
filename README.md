@@ -52,6 +52,18 @@ sequential constant  and the sequential logic would be retained as is and not be
 
 ![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/f53ec1de-dd0b-42a9-8021-8922c28a8402)
 
+#### Optimizations of Unloaded Outputs : 
+
+Logic generated to produce outputs which are not getting used will be further optimized away, to improve PPA.
+
+![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/6f24ab51-ae68-46b3-a6b1-9f4ab5970afc)
+
+#### Controlling Sequential Optimizations by setting few boolean variables as true or false :
+
+![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/4a2bb46a-d008-4f2b-a224-eba27e6858b8)
+
+
+
 
 
 
