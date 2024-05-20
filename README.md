@@ -14,3 +14,26 @@ The above 3 goals are always contradictory to each other i.e trying to optimize 
 
 ![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/d843072c-f607-447a-b992-597c7f93278c)
 
+#### Combinational Logic Optimization :
+
+![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/07d6808b-eb23-4875-8497-bf33d73fecbc)
+
+![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/d539e428-b953-4e3b-b9d5-9a43de640ed8)
+
+![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/8a77499c-c577-4338-aee8-16166fdb1eee)
+
+![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/2c0a54c7-ddcc-42d2-9829-a9df1ec31ebd)
+
+![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/761a0dae-c60f-461a-8b6e-e6eb455f3418)
+
+Between Balanced and Preferential Implementation, Constraints are the deciding factor on which implementation will be inferred by Synthesis Tool. In Example given below, if `e` is a late arriving signal and has huge external delay and it can withstand least gate delay between `e` & `y`, then preferential implementation will be inferred by DC tool instead of Balanced Implementation to meet the **`constraints`**.
+
+![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/5c2aa732-5116-4156-a294-4cfdd42fae17)
+
+
+#### Sequential Logic Optimization :
+
+
+
+
+
