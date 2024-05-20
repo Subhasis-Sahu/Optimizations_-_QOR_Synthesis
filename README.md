@@ -33,6 +33,29 @@ Between Balanced and Preferential Implementation, Constraints are the deciding f
 
 #### Sequential Logic Optimization :
 
+![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/87b0c26c-498a-42c5-83db-5f87f17f1997)
+
+#### Constant Sequential Propagation :
+
+![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/e8b9a9ea-d193-497a-8dd1-ee053436ef8b)
+
+![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/282efeac-8d39-42ac-a9e3-9352e298024b)
+
+When the value of `Q` changes (from `1->0 & 0->1`) based on the assertion of `reset` or `set` signals, even if the `D` input of Flop is tied to a constant input (`1'b0` or `1'b1`), it would not be considered as a 
+sequential constant  and the sequential logic would be retained as is and not be optimized away.
+
+![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/ecd06941-dffc-416b-8a5c-832dce4b8370)
+
+![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/5c35db05-18e0-418c-9966-82d50dc5ece8)
+
+
+
+
+
+
+
+
+
 
 
 
