@@ -1,7 +1,7 @@
 # Optimizations and Quality of Results in Synthesis
 <details>
 
-<summary>Optimizations in Synthesis</summary>
+<summary> Day 8 - Optimizations in Synthesis</summary>
 
 Optimization Goals for Synthesis :
 
@@ -35,7 +35,7 @@ Between Balanced and Preferential Implementation, Constraints are the deciding f
 
 ![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/87b0c26c-498a-42c5-83db-5f87f17f1997)
 
-#### Constant Sequential Propagation :
+#### Sequential Constant Propagation :
 
 ![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/e8b9a9ea-d193-497a-8dd1-ee053436ef8b)
 
@@ -47,6 +47,13 @@ sequential constant  and the sequential logic would be retained as is and not be
 ![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/ecd06941-dffc-416b-8a5c-832dce4b8370)
 
 ![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/5c35db05-18e0-418c-9966-82d50dc5ece8)
+
+![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/b08dd480-ace5-4549-8185-782ad9237acb)
+
+![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/f53ec1de-dd0b-42a9-8021-8922c28a8402)
+
+
+
 
 
 
