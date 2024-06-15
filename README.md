@@ -76,6 +76,22 @@ Logic generated to produce outputs which are not getting used will be further op
 
 ![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/288c414a-3f81-42b8-9281-011e6ddeb982)
 
+![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/0d5170fe-b2a8-4994-97d4-12ce206caab3)
+
+
+#### Boundary Optmizations :
+
+How to control boundary optimization?
+
+    set_boundary_optimization <design> <true|false>
+    for ex : set_boundary_optimization module_sub false
+    
+
+![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/ed0dfa09-5fb1-4c3c-b642-0d2efe6d4a83)
+
+
+
+
 
 
 
