@@ -65,6 +65,16 @@ Logic generated to produce outputs which are not getting used will be further op
 #### Special Optimizations :
 
 
+##### Register Retiming :
+
+**Understanding Register Retiming** :
+
+* Register retiming is a sequential optimization technique that moves registers through the combinational logic gates of a design to optimize timing and area. Other optimization techniques, such as those implemented in the compile_ultra command or compile command, optimize the combinational logic by performing Boolean optimization and mapping to cells in the technology library. These techniques leave unchanged the location and number of any registers present in the design. Register retiming adds an opportunity for improving circuit timing.
+* When we describe circuits at the RT-level prior to logic synthesis, it is usually very difficult and time-consuming, if not impossible, to find the optimal register locations and code them into the HDL description. With register retiming, the locations of the flip-flops in a sequential design can be automatically adjusted to equalize as nearly as possible the delays of the stages. This capability is particularly useful when some stages of a design exceed the timing goal while other stages fall short. If no path exceeds the timing goal, register retiming can be used to reduce the number of flip-flops, where possible.
+* Purely combinational designs can also be retimed by introducing pipelining into the design. In this case, we first specify the desired number of pipeline stages and the preferred flip-flop from the target library. The appropriate number of registers are added at the outputs of the design. Then the registers are moved through the combinational logic to retime the design for optimal clock period and area. Register retiming leaves the behavior of the circuit at the primary inputs and primary outputs unchanged (unless we choose special options that do not preserve the reset state of the design or add pipeline stages). Therefore we do not need to change any simulation test benches developed for the original RTL design.
+* Retiming does, however, change the location, contents, and names of registers in the design. A verification strategy that uses internal register inputs and outputs as reference points will no longer work. Retiming can also change the function of hierarchical cells inside a design and add clock, clear, set, and enable pins to the interfaces of the hierarchical cells.
+
+![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/288c414a-3f81-42b8-9281-011e6ddeb982)
 
 
 
