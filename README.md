@@ -79,7 +79,7 @@ Logic generated to produce outputs which are not getting used will be further op
 ![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/0d5170fe-b2a8-4994-97d4-12ce206caab3)
 
 
-#### Boundary Optmizations :
+#### Boundary Optmization :
 
 How to control boundary optimization?
 
