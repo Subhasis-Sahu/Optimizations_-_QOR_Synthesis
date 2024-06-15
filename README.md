@@ -62,6 +62,10 @@ Logic generated to produce outputs which are not getting used will be further op
 
 ![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/4a2bb46a-d008-4f2b-a224-eba27e6858b8)
 
+#### Lab 1 - Combinational Optimizations :
+
+
+
 
 
 
