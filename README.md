@@ -1,7 +1,7 @@
 # Optimizations and Quality of Results in Synthesis
 <details>
 
-<summary> Day 8 - Optimizations in Synthesis</summary>
+<summary> Day 9 - Optimizations in Synthesis</summary>
 
 Optimization Goals for Synthesis :
 
@@ -63,6 +63,22 @@ Logic generated to produce outputs which are not getting used will be further op
 ![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/4a2bb46a-d008-4f2b-a224-eba27e6858b8)
 
 #### Lab 1 - Combinational Optimizations :
+
+##### Synthesis of opt_check*.v designs :
+
+Screenshot of RTL of opt_check* modules :
+
+![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/b32f2dd0-8f0b-4d9a-aab4-334a0a3840f2)
+
+![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/55f57a45-68d5-4f31-ad4d-2a065170bee6)
+
+![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/272f86b1-a535-45e4-a579-76b97d5432fd)
+
+![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/8d9f5702-46e0-4404-a2b4-0eeb5ea47358)
+
+![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/a64bedf0-fa1e-402d-9970-cf4cdd085439)
+
+
 
 
 
