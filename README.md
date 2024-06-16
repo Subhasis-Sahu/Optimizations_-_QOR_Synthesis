@@ -89,6 +89,11 @@ How to control boundary optimization?
 
 ![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/ed0dfa09-5fb1-4c3c-b642-0d2efe6d4a83)
 
+#### Multi Cycle Path :
+
+![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/75d64f6f-6702-4729-ba6c-ae9156fc34b9)
+
+
 
 
 
