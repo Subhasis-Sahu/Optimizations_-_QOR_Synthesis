@@ -93,6 +93,11 @@ How to control boundary optimization?
 
 ![image](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/75d64f6f-6702-4729-ba6c-ae9156fc34b9)
 
+#### False Path :
+
+![Untitled](https://github.com/Subhasis-Sahu/Optimizations_-_QOR_Synthesis/assets/165357439/085b3df6-a052-421d-b47f-ae61521cdf2b)
+
+
 
 
 
